@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+}
+main{
+    padding: 20px;
+    background-color: rgb(243, 242, 242);
+}
+
+/* Меню */
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    font-size: 11pt;
+}
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0474bc;
+}
+
+/* Страница "О компании" */
+.textInf{
+    padding: 10px 60px;
+}
+.rates{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin: 40px;
+}
+.rate{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+h2{
+    text-align: center;
+    color: rgb(78, 76, 76);
+    margin: 30px;
+}
+.prod{
+    background-color: #2c2c34;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px 40px;
+}
+.prod h4{
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+}
+.aText{
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.aText a:hover{
+    color: #e01836;
+}
+.inf{
+    justify-content: center;
+}
+.inf p {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.aText a{
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+}
+.pressa{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+.aPress{
+    text-align: end;
+    padding: 0 90px;
+    color: #e01836;
+}
+.aPress a:visited{
+    color: #e01836;
+}
+
+
+/* Страница "Новости" */
+h1{
+    text-align: center;
+    color: rgb(96, 95, 95);
+    font-size: 25pt;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    cursor: pointer;
+    width: 400px;
+}
+.card button{
+    border: 1px solid gray;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: white;
+}
+.date{
+    color: rgb(142, 140, 140);
+}
+.card img{
+    width: 400px;
+    height: 250px;
+}
+
+/* Страница "Курс Валют" */
+.valutes{
+    background-color:#0475bc1f;
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+.valute{
+    text-align: center;
+    padding: 10px;
+}
+.valute button{
+    padding: 10px 20px;
+    background-color: #62b8ed;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+input{
+    padding: 5px 10px;
+}
+
+/* Страница "Контактные данные" */
+.phones{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.phones a{
+    color: #ec1b34;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18pt;
+}
+.adress{
+    /* margin: 20px; */
+    padding: 40px;
+    text-align: center;
+}
+
+/* Страница "Видео" */
+.videos{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin: 40px;
+}
+.videos h3{
+    text-align: center;
+    color: #025588;
+}
+
+/* Подвал сайта */
+footer{
+    background-color: #2b2b33;
+    padding: 40px 20px;
+}
+.foot1{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.foot1 a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.foot1 div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.foot1 a{
+    text-transform: uppercase;
+    color: rgb(209, 206, 206);
+}
+.foot1 a:hover{
+    color: white;
+}
+.buttons{
+    margin: 30px 0;
+    display: flex;
+    gap: 25px;
+}
+.but1{
+    background-color: #ec1b34;
+    color: white;
+    padding: 20px 40px;
+    font-size: 12pt;
+    border: none;
+    cursor: pointer;
+    font-size: 11pt;
+}
+.but2{
+    border: 1px solid #ec1b34;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px 40px;
+    font-size: 12pt;
+    cursor: pointer;
+    font-size: 11pt;
+}
+.but1:hover{
+    background-color: #b21628;
+}
+.but2:hover{
+    background-color: #ec1b34;
+}
+.foot2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: white;
+    font-size: 10pt;
+    padding-top: 20px;
+    justify-content: center;
+}
+.foot2 div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.foot2 img{
+    align-self: center;
+    cursor: pointer;
+}
